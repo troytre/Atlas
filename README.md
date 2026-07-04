@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Atlas
 
-## Getting Started
+> Building the next-generation Trading Intelligence Platform for serious retail traders.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Vision
+
+Atlas is a modern Trading Intelligence Platform that combines:
+
+- Daily Market Bias
+- Market Research
+- Trading Journal
+- Trading Education
+- Market Dashboard
+- Trading Tools
+- Resources
+- Newsletter
+- Premium Intelligence
+
+The goal is not to build another trading blog.
+
+The goal is to build the platform traders open every morning before the market begins.
+
+---
+
+## Mission
+
+Help retail traders make better decisions through:
+
+- Structured research
+- Transparent trade journaling
+- Data-driven market intelligence
+- Practical education
+- Professional software
+
+We do not sell hype.
+
+We do not sell guaranteed returns.
+
+We build trust.
+
+---
+
+## Tech Stack
+
+Framework
+
+- Next.js
+
+Language
+
+- TypeScript
+
+Styling
+
+- Tailwind CSS
+
+UI
+
+- shadcn/ui
+
+Database
+
+- PostgreSQL
+
+ORM
+
+- Prisma
+
+Hosting
+
+- Vercel
+
+Authentication
+
+- Auth.js (Future)
+
+Email
+
+- Resend
+
+Charts
+
+- TradingView Widgets
+- Recharts
+
+---
+
+## Repository Structure
+
+```
+app/
+components/
+features/
+hooks/
+lib/
+prisma/
+public/
+types/
+docs/
+tests/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Current Phase
 
-## Learn More
+Engineering Foundation
 
-To learn more about Next.js, take a look at the following resources:
+Current Sprint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sprint 1
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Version
 
-## Deploy on Vercel
+0.1.0
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Roadmap
+
+- Engineering Foundation
+- Design System
+- Homepage
+- Daily Bias
+- Market Pages
+- Journal
+- Research
+- Resources
+- Newsletter
+- Dashboard
+- Premium
+- API
+
+---
+
+## Guiding Principles
+
+- Trust before Revenue
+- Research before Opinion
+- Simplicity before Complexity
+- Performance before Animation
+- SEO before Marketing
+- Consistency before Speed
+
+---
+
+## Long-Term Vision
+
+Atlas will evolve into a complete Retail Trader Operating System that combines:
+
+- Intelligence
+- Education
+- Performance Tracking
+- Community
+- Software
+
+under one ecosystem.
