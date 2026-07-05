@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Container } from "./Container";
 
 const navigation = [
-  { name: "Market", href: "#" },
+  { name: "Market Brief", href: "/market-brief" },
   { name: "Learn", href: "#" },
   { name: "Journal", href: "#" },
   { name: "Resources", href: "#" },

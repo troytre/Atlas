@@ -4,7 +4,7 @@ import { MarketCard } from "./MarketCard";
 import { marketData } from "./market-data";
 import { DailyBiasCard } from "./DailyBiasCard";
 import { HeroBackground } from "./HeroBackground";
-
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -30,9 +30,11 @@ export function Hero() {
             </p>
 
             <div className="mt-10 flex gap-4">
-              <Button size="lg">
-                Today's Bias
-              </Button>
+              <Link href="/market-brief">
+               <Button size="lg">
+                 Read Today's Market Brief
+                  </Button>
+                  </Link>
 
               <Button
                 size="lg"
