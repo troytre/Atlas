@@ -2,10 +2,14 @@ import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/button";
 import { MarketCard } from "./MarketCard";
 import { marketData } from "./market-data";
+import { DailyBiasCard } from "./DailyBiasCard";
+import { HeroBackground } from "./HeroBackground";
+
 
 export function Hero() {
   return (
     <section className="py-24">
+        <HeroBackground />
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>
@@ -48,7 +52,14 @@ export function Hero() {
             ))}
           </div>
         </div>
+        <div className="mt-24">
+                        <DailyBiasCard />
+                    </div>
       </Container>
     </section>
   );
 }
+
+
+
+
