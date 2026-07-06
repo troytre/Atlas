@@ -5,6 +5,7 @@ import { marketData } from "./market-data";
 import { DailyBiasCard } from "./DailyBiasCard";
 import { HeroBackground } from "./HeroBackground";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -16,6 +17,8 @@ export function Hero() {
             <span className="rounded-full border px-3 py-1 text-sm">
               🚀 Retail Trading Intelligence
             </span>
+
+            
 
             <h1 className="mt-6 text-6xl font-bold tracking-tight">
               Trading Intelligence

@@ -1,48 +1,67 @@
 import { Container } from "@/components/layout/Container";
 
+const features = [
+  "Live Entry Levels",
+  "Stop Loss & Target",
+  "Risk Management",
+  "Intraday Updates",
+  "Instant Telegram Alerts",
+];
+
 export function TradePlan() {
   return (
-    <section className="py-12">
+    <section className="py-16">
       <Container>
-        <div className="rounded-3xl border bg-card p-8">
 
-          <h2 className="text-3xl font-bold">
-            Trade Plan
-          </h2>
+        <div className="overflow-hidden rounded-3xl border bg-gradient-to-r from-slate-900 to-slate-800 p-10 text-white shadow-2xl">
 
-          <p className="mt-3 text-muted-foreground">
-            Plan first. Trade later.
+          <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
+            Trade Execution
           </p>
 
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+          <h2 className="mt-4 text-4xl font-black">
+            Today's Exact Trade Setup
+          </h2>
 
-            <div className="rounded-xl border border-green-500/30 bg-green-500/5 p-6">
-              <h3 className="text-xl font-semibold text-green-500">
-                🟢 Bullish Scenario
-              </h3>
+          <p className="mt-5 max-w-2xl text-slate-300">
+            Atlas provides the market bias publicly.
+            Exact entry, stop-loss, targets and live trade
+            management are shared exclusively on Telegram.
+          </p>
 
-              <ul className="mt-5 space-y-3 text-sm">
-                <li>• Wait for acceptance above 25,430</li>
-                <li>• Look for momentum confirmation</li>
-                <li>• Avoid chasing large opening candles</li>
-              </ul>
-            </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
 
-            <div className="rounded-xl border border-red-500/30 bg-red-500/5 p-6">
-              <h3 className="text-xl font-semibold text-red-500">
-                🔴 Bearish Scenario
-              </h3>
+            {features.map((feature) => (
 
-              <ul className="mt-5 space-y-3 text-sm">
-                <li>• Breakdown below 25,180</li>
-                <li>• Avoid aggressive buying</li>
-                <li>• Watch institutional selling</li>
-              </ul>
-            </div>
+              <div
+                key={feature}
+                className="flex items-center gap-3 rounded-2xl bg-white/5 p-4 backdrop-blur"
+              >
+                <span className="text-green-400">✓</span>
+
+                <span>{feature}</span>
+
+              </div>
+
+            ))}
+
+          </div>
+
+          <div className="mt-10">
+
+            <a
+              href="https://t.me/OpenToCloseBias"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex rounded-xl bg-blue-600 px-8 py-4 text-lg font-bold transition hover:bg-blue-500"
+            >
+              Join Telegram →
+            </a>
 
           </div>
 
         </div>
+
       </Container>
     </section>
   );

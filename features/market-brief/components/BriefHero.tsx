@@ -2,26 +2,45 @@ import { Container } from "@/components/layout/Container";
 
 export function BriefHero() {
   return (
-    <section className="py-16 border-b">
+    <section className="border-b bg-slate-50">
       <Container>
-        <span className="rounded-full border px-3 py-1 text-sm">
-          Daily Market Brief
-        </span>
+        <div className="py-20">
 
-        <h1 className="mt-6 text-5xl font-bold tracking-tight">
-          NIFTY 50 Market Brief
-        </h1>
+          <span className="inline-flex rounded-full border bg-white px-4 py-2 text-sm font-medium shadow-sm">
+            📈 Daily Market Brief
+          </span>
 
-        <p className="mt-4 text-lg text-muted-foreground max-w-3xl">
-          Daily professional market analysis covering market bias,
-          institutional flows, key levels, macro events and trading
-          opportunities.
-        </p>
+          <h1 className="mt-6 max-w-4xl text-5xl font-black tracking-tight md:text-7xl">
+            MARKET'S 
+            <br />
+            BIAS Outlook
+          </h1>
 
-        <div className="mt-8 flex flex-wrap gap-6 text-sm text-muted-foreground">
-          <span>📅 6 July 2026</span>
-          <span>🕘 Updated 08:45 AM</span>
-          <span>⏱ 6 min read</span>
+          <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
+            Institutional market outlook with key levels, trade plans,
+            risk analysis and macro events before the market opens.
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-3">
+
+            <span className="rounded-full bg-white px-4 py-2 shadow-sm">
+              📅 Monday
+            </span>
+
+            <span className="rounded-full bg-white px-4 py-2 shadow-sm">
+              🕘 Updated 08:45 AM
+            </span>
+
+            <span className="rounded-full bg-white px-4 py-2 shadow-sm">
+              ⏱️ 6 min read
+            </span>
+
+            <span className="rounded-full bg-green-600 px-4 py-2 font-semibold text-white">
+              🟢 82% Confidence
+            </span>
+
+          </div>
+
         </div>
       </Container>
     </section>

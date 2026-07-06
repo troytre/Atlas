@@ -1,4 +1,6 @@
 import { Container } from "@/components/layout/Container";
+import Image from "next/image";
+
 
 const summary = {
   bias: "Bullish",
@@ -16,10 +18,16 @@ export function BiasSummary() {
         <div className="rounded-3xl border bg-card p-8 shadow-sm">
 
           <div className="flex flex-col gap-6 lg:flex-row lg:justify-between">
-
+<Image
+      src="/logos/nifty-50--big.svg"
+      alt="NIFTY 50"
+      width={220}
+      height={64}
+      className="rounded-xl"
+    />
             <div>
               <p className="text-sm text-muted-foreground">
-                Today's Bias
+                Today's Bias 
               </p>
 
               <h2 className="mt-2 text-4xl font-bold">

@@ -4,10 +4,12 @@ import { Container } from "./Container";
 
 const navigation = [
   { name: "Market Brief", href: "/market-brief" },
-  { name: "Learn", href: "#" },
-  { name: "Journal", href: "#" },
-  { name: "Resources", href: "#" },
-  { name: "Tools", href: "#" },
+  { name: "Research", href: "/research" },
+  { name: "Learn", href: "/learn" },
+  { name: "Journal", href: "/journal" },
+  { name: "Mission", href: "/mission" },
+  { name: "Resources", href: "/resources" },
+  { name: "Tools", href: "/tools" },
 ];
 
 export function Navbar() {
